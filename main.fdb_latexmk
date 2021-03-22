@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1616411222 "main.aux" "main.bbl" "main" 1616412474
+["bibtex main"] 1616452809 "main.aux" "main.bbl" "main" 1616452822
   "/usr/share/texmf-dist/bibtex/bst/apacite/apacite.bst" 1607188566 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "main.aux" 1616412474 607 5afd1bf08046d3f0ded2cffcdb5a4262 "pdflatex"
-  "references.bib" 1616405974 271 017d18b6739651d3dc281b2a0f4be3f1 ""
+  "main.aux" 1616452782 719 ef8fa8d8b2fb3bb5b96de1cc0d4b8437 "pdflatex"
+  "references.bib" 1616452808 571 2f95b5ab760eea190c69a5c2ca72d3c2 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1616412473 "/home/merc312/Code/sty-a2/main.tex" "/home/merc312/Code/sty-a2/main.pdf" "main" 1616412474
-  "/home/merc312/Code/sty-a2/main.aux" 1616412474 607 5afd1bf08046d3f0ded2cffcdb5a4262 ""
-  "/home/merc312/Code/sty-a2/main.tex" 1616412472 9229 ee91106daa7796ae3b891aba1fc1e7b8 ""
+["pdflatex"] 1616452781 "/home/merc312/Code/sty-a2/main.tex" "/home/merc312/Code/sty-a2/main.pdf" "main" 1616452822
+  "/home/merc312/Code/sty-a2/main.aux" 1616452782 719 ef8fa8d8b2fb3bb5b96de1cc0d4b8437 ""
+  "/home/merc312/Code/sty-a2/main.tex" 1616452778 9237 e3eea50c0ac2e9482271d7e090376b0f ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1607249373 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1607249373 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -148,12 +148,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1607249373 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1616400285 4885835 225b430335ea75120e4d14f95280dfb9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1616400270 2635853 a8d6e7528c89ce66cdd82d488ed2ba3f ""
-  "main.aux" 1616412474 607 5afd1bf08046d3f0ded2cffcdb5a4262 "pdflatex"
-  "main.bbl" 1616411222 620 d127f7498e31883c58682b61af17d989 "bibtex main"
-  "main.tex" 1616412472 9229 ee91106daa7796ae3b891aba1fc1e7b8 ""
+  "main.aux" 1616452782 719 ef8fa8d8b2fb3bb5b96de1cc0d4b8437 "pdflatex"
+  "main.bbl" 1616452809 1248 53a1938c6a28e149b1883257fbff5a51 "bibtex main"
+  "main.tex" 1616452778 9237 e3eea50c0ac2e9482271d7e090376b0f ""
   (generated)
+  "main.pdf"
   "/home/merc312/Code/sty-a2/main.log"
   "/home/merc312/Code/sty-a2/main.pdf"
-  "main.pdf"
   "main.aux"
   "main.log"

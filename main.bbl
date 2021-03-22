@@ -24,4 +24,29 @@ Alexander, M.%
   {\url{https://www.cio.com/article/3156998/agile-project-management-a-beginners-guide.html}}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Angelina~Samaroo%
+}{%
+Angelina~Samaroo%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Angelina2015}
+\APACinsertmetastar {%
+Angelina2015}%
+\begin{APACrefauthors}%
+Angelina~Samaroo, G\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Software Testing - An ISTQB-BCS Certified Tester Foundation
+  Guide 3rd ed-BCS Learning \& Development Limited} {Software testing - an
+  istqb-bcs certified tester foundation guide 3rd ed-bcs learning \&
+  development limited}\ (B.~Hambling, \BED{}).
+\newblock
+\APACaddressPublisher{}{BCS}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
