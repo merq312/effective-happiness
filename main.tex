@@ -1,0 +1,113 @@
+\documentclass[a4paper,man,natbib]{apa6}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{STY1004: Chapter 2 Lab}
+\shorttitle{STY1004: Chapter 2 Lab}
+\author{Chamila Gunasena, Haba Crispain Ntwali, Kaushik Sreenivasan, Praveen Perera}
+\affiliation{Cambrian College}
+
+\begin{document}
+\maketitle
+
+\section{Scenario}
+
+You have a client that is a leading consumer goods company that sells many leading brands of food and household products.  They are an established company with many stores across the country, but now they want to provide customers with the ability to order online.\\
+They have asked you and your team to create an E-commerce Website.  The client would like to create an online catalog of products and allow customers to start shopping as soon as possible.  An extensive list of reports will be required at some point for all levels of personnel, from support staff (viewing individual customer orders) to senior management (viewing sales by date range and analyzing sales trends etc.).  There are some known reports, but also many reports not yet conceived.\\
+Having the website available to desktop users of different platforms (Windows, Mac OS, Linux etc.) is paramount.  However, there is also a need for the site to be available for all major mobile environments.\\
+
+There are many details still to be addressed, but the company has identified the following:\\
+
+\begin{enumerate}
+  \item Customers will receive a discount based on either quantity or total cost of products.
+  \item Customers will have multiple shipping options, and receive free shipping for orders over a given threshold (to be determined later).
+  \item The company wants to institute a loyalty program.
+\end{enumerate}
+
+\pagebreak
+\section{Questions}
+
+\noindent
+\textbf{1. What development model would you choose for this project? Why?}\\
+
+The appropriate development model for this project is Agile. The client requires the project to go into production as soon as possible so that they do not lose market share to competitors. They are also an established company therefore they are able to afford the greater resources and expertise required for an Agile development plan.\\
+The scenario briefing states that many details are still to be addressed and that various discounts, bonus offers, and the extent of systems reports required are not determined yet. This indicates that user and system requirements are bound to change over the course of development. Agile is the best development model of when there is a high possibility of continuous changes.\\
+The project also requires reporting for their internal business processes, this component of the project can be separated out as a module and developed after the e-commerce module has been implemented and put into production. This modular development cycle is ideal for Agile.
+Organizations utilizing agile development methods are going to use software equipped for fast advancement to get the full advantages of this technique. As organizations make the move to an advanced digital working environment that is exceptionally subject to speed, adaptability, expanded profitability, and coordinated techniques, agile looks ideal for this organization. \citep{Alexander2018} \\
+Selecting a waterfall development plan would not allow requirements to be modified very easily once the project is out of the requirements gathering stage. Similarly, it would also require the whole project to be completed before it is put into production. A V-development model will allow testing to commence sooner however it too does not have the flexibility for changing requirements and modular development that Agile enables. Another caveat in the Waterfall development model is that testing comes after the coding stage while Agile performs testing simultaneously alongside development. \\
+
+\pagebreak
+\noindent
+\textbf{2. The four test levels are component testing, integration testing, system testing and acceptance testing.  For each of the test levels, identify one item (test object) of the project that might be tested and specify the test basis and the test object.}\\
+
+\begin{itemize}
+  \item Component Testing:  Testing the action of added an item to the shopping cart.
+  \begin{itemize}
+    \item	Test Basis: Technical Design Specification (component requirements and the code), describes the exact technical behavior of adding an item to the cart.
+    \item	Test Object: Class and functional components of code representing the shopping cart and items for sale.
+  \end{itemize}
+
+  \item Integration Testing: Testing the integration between the checkout page and payment service.
+  \begin{itemize}
+    \item Test Basis: Technical Design Specification (workflows and the system design) for information about how payments are authenticated and sent to be processed by the payments service.
+    \item	Test Object: The checkout page of the website and the payment system provider (e.g.: PayPal, Stripe, etc.).
+  \end{itemize}
+
+  \item System Testing: Loading testing the website for the e-commerce website.
+  \begin{itemize}
+    \item	Test Basis: System Requirements Specification, specifies the maximum load the website’s servers were set up for.
+    \item	Test Object: The website as a whole.
+  \end{itemize}
+
+  \item Acceptance Testing: Testing if the Sign-Up page and its functionality is intuitive for end-users.
+  \begin{itemize}
+    \item	Test basis: User Requirements Specification, details the Sign-Up process.
+    \item	Test Object: The Sign-Up page and the instructions and forms provided on it.
+  \end{itemize}
+\end{itemize}
+
+\pagebreak
+\noindent
+\textbf{3. Identify a specific functional test that is needed for the project and outline the 6 steps you will take for this test.}\\
+
+Interoperability Testing. It is a type of functional testing which checks the capability of the developed software to interact with other software components and systems. It can be carried out following the 6 steps as listed below:\\
+
+\begin{enumerate}
+  \item	Functionality: Creating test cases for all the possible paths through the E-commerce website to see how it will perform.
+  \item	Create test input data: While testing this project, for example, the user may select a product and choose an option to add it to the shopping cart.
+  \item	Determine expected data: Using the previous example, the expected behavior is that when the product/item added to the shopping cart, the shopping cart is updated, and it is ready for check out.
+  \item	Test execution: Execute the necessary tests to generate the results you will need for the next step.
+  \item	Compare actual and expected results: Analyse the test results to see if there were any test cases where the actual results did not match the expected result.
+  \item	Raise defect case if step 5 fails: If the 5th step fails, a report is made, and the software development team performs debugging to correct the error in the code. 
+\end{enumerate}
+
+\pagebreak
+\noindent
+\textbf{4. Describe two possible scenarios when maintenance testing should be applied to the project throughout its lifetime.}\\
+
+\textbf{Scenario:} (Ad-hoc corrective modification) A security vulnerability is detected that allows unauthorized users to log into user accounts without authentication and thereby see other users’ personal information.\\
+
+The website should be taken down immediately and the users should be notified of a possible breach. Testing should commence as soon as possible to detect the defect in the authentication process that allowed users to bypass the authentication stages.\\
+
+A risk analysis of the operational frameworks ought to be acted to set up what capacities or projects establish the most serious danger to the operational administrations in this case and for other similar cases of fiasco. It should then be settled–in regard of the capacities in danger–which test activities ought to be performed if a specific glitch happens.\\
+
+\textbf{Scenario:} (Adaptive modification) The website is to be adapted to look better on ultra-high-resolution screens. This is due to the website analytics report showing that a significant portion of the user-base is using a device with said resolution when visiting the website.\\
+
+The website's assets (images and videos) need to be updated with higher resolution variants and the website's responsive layout may need be to be adapted to look better on a very large screen size. Once these changes are made, usability testing needs to be done to see if users can use and adapt to the new layout of the website effectively and that there are no new functional defects.\\
+
+Higher resolution assets will also mean that the website's maximum load will be reduced since its servers will be handling significantly larger files, non-functional systems testing (load handling) is necessary to see how much of an effect it had and if the maximum load is above the minimum specified by the system requirements specification.\\
+
+\bibliography{references}
+
+\end{document}
+
+%
+% Please see the package documentation for more information
+% on the APA6 document class:
+%
+% http://www.ctan.org/pkg/apa6
+%
